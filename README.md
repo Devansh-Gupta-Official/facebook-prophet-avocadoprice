@@ -14,6 +14,10 @@ type: Type of avocado (e.g., conventional or organic)
 year: Year of the record
 region: Region where the avocados were sold
 
+## Files
+- avocado.csv: Raw dataset file.
+- code.ipynb: Jupyter Notebook containing analysis and predictions.
+
 ## Jupyter Notebook (`code.ipynb`)
 Sections in the Notebook
 1. **Importing the Dataset and Packages**
