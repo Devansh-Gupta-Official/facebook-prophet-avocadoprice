@@ -2,7 +2,7 @@
 This repository contains an analysis of the avocado dataset, exploring the pricing trends over time and making predictions using the Prophet library.
 
 ## Prophet Model
-- Install fbprophet package as follows: ``` pip install prophet```
+- Install fbprophet package as follows: ```pip install prophet```
 - Prophet is an open source software released by Facebook's Core Data Science Team.
 - Used for forecasting time series data based on additive model when non-linear trends are fit with yearly, weekly and daily seasonality.
 
