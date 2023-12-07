@@ -16,11 +16,20 @@ region: Region where the avocados were sold
 
 ## Jupyter Notebook (`code.ipynb`)
 Sections in the Notebook
-1. **Importing the Dataset and Packages:** Loading necessary libraries and importing the avocado dataset using Pandas.
-2. **Exploring and Visualizing the Dataset:** Initial exploration of the dataset, checking the first few rows, and visualizing the data's trend over time and distribution across regions.
-3. **Preparing Data for Forecasting:** Formatting the data for Prophet by selecting the necessary columns and renaming them.
-4. **Making Predictions with Prophet:** Utilizing the Prophet library to train a model on the dataset and forecasting future avocado prices.
-5. **Visualizing Predictions:** Plotting the predicted avocado prices over time and visualizing trend components.
+1. **Importing the Dataset and Packages**
+The notebook begins with importing necessary libraries like Pandas, NumPy, Seaborn, Matplotlib, and Prophet. The dataset is loaded and previewed to understand its structure.
+
+2. **Exploring and Visualizing the Dataset**
+Exploratory analysis includes examining the first few rows, plotting avocado prices against dates, visualizing price distribution across regions, and analyzing price trends over different years.
+
+3. **Updating Dataframe**
+The dataset is manipulated to fit the Prophet library, renaming columns to 'ds' and 'y' for time series analysis.
+
+4. **Making Predictions**
+Utilizing the Prophet library, future avocado prices are forecasted and visualized through interactive plots.
+
+5. **Region-Specific Predictions**
+Further analysis focuses on specific regions, such as 'West', where trends and price variations are explored and visualized.
 
 ## Usage
 1. Clone the repository:
