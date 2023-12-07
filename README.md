@@ -2,17 +2,22 @@
 This repository contains an analysis of the avocado dataset, exploring the pricing trends over time and making predictions using the Prophet library.
 
 ## Avocado Dataset
+- Data represents weekly 2018 retail scan data for National retail volume (units) and price.
+- Retail scan data comes directly from retailers' cash registers based on actual retail sales of Hass avacados.
+- The AveragePrice represents a per unit cost, even when multiple units are sold in bags.
+- The PLUs are only for Hass avacados. Other varieties are not included.
+  
 The dataset (avocado.csv) contains information about avocado sales, including the following columns:
 
-Date: Date of the recorded data
-AveragePrice: Average price of avocados
-Total Volume: Total volume of avocados sold
-4046, 4225, 4770: Sales volume of different types of avocados
-Total Bags: Total bags sold
-Small Bags, Large Bags, XLarge Bags: Volume of different bag sizes sold
-type: Type of avocado (e.g., conventional or organic)
-year: Year of the record
-region: Region where the avocados were sold
+- Date: Date of the recorded data
+- AveragePrice: Average price of avocados
+- Total Volume: Total volume of avocados sold
+- 4046, 4225, 4770: Sales volume of different types of avocados
+- Total Bags: Total bags sold
+- Small Bags, Large Bags, XLarge Bags: Volume of different bag sizes sold
+- type: Type of avocado (e.g., conventional or organic)
+- year: Year of the record
+- region: Region where the avocados were sold
 
 ## Files
 - avocado.csv: Raw dataset file.
