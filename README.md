@@ -1,6 +1,11 @@
 # Avocado Dataset Analysis
 This repository contains an analysis of the avocado dataset, exploring the pricing trends over time and making predictions using the Prophet library.
 
+## Prophet Model
+- Install fbprophet package as follows: ``` pip install prophet```
+- Prophet is an open source software released by Facebook's Core Data Science Team.
+- Used for forecasting time series data based on additive model when non-linear trends are fit with yearly, weekly and daily seasonality.
+
 ## Avocado Dataset
 - Data represents weekly 2018 retail scan data for National retail volume (units) and price.
 - Retail scan data comes directly from retailers' cash registers based on actual retail sales of Hass avacados.
